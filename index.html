@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sgomberami Ristrutturazioni — Sgomberi e ristrutturazioni chiavi in mano</title>
+  <meta name="description" content="Sgomberami Ristrutturazioni: sopralluogo gratuito, ristrutturazioni complete, sgomberi con smaltimento autorizzato. Preventivo trasparente e tempi certi.">
+  <meta name="google-site-verification" content="d-yn0gc-PbnddiF8nhUZNel5P2G9A7tBfVEY3mNSlQE" />
+  <meta name="google-site-verification" content="401876af580b46f1" />
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="assets/style.css">
+  <meta property="og:title" content="Sgomberami Ristrutturazioni">
+  <meta property="og:description" content="Sopralluogo gratuito, ristrutturazioni complete e smaltimento autorizzato.">
+  <meta property="og:image" content="assets/og-home.svg">
+</head>
+<body>
+  <header class="site-header container">
+    <a href="index.html" class="logo">
+      <img src="/logo.jpg" alt="Logo Sgomberami Ristrutturazioni">
+      <div class="logo-text">
+        <span>SGOMBERAMI</span>
+        <span>RISTRUTTURAZIONI</span>
+      </div>
+    </a>
+    <nav class="main-nav" aria-label="Menu principale">
+      <a href="index.html">Home</a>
+      <a href="#contatti" class="cta" onclick="event.preventDefault(); scrollToContact();">Richiedi preventivo</a>
+    </nav>
+    <button id="mobile-toggle" aria-label="Apri menu" aria-expanded="false" style="display:none">☰</button>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-inner" style="background:var(--brand-orange);border-radius:12px;overflow:hidden;gap:0;">
+        <aside>
+          <img src="https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Salotto moderno con camino" style="width:100%;height:auto;display:block;margin-bottom:16px;">
+          <div style="padding:0 24px 24px 24px;">
+            <h3 style="color:#000;text-transform:uppercase;letter-spacing:0.5px;">Per interventi urgenti</h3>
+            <p style="color:#000;"><span style="color:#fff;font-size:1em;margin-right:6px;">➤</span>Intervento rapido per sgomberi urgenti: contattaci subito.</p>
+            <a href="tel:+393332837165" class="cta" style="display:inline-block;margin-top:12px;background:#fff;color:#000;border:1px solid #eee;">Chiama ora</a>
+          </div>
+        </aside>
+        <div style="padding:24px;">
+          <h1 style="color:#000;font-size:1.17em;text-transform:uppercase;letter-spacing:0.5px;">Sgomberami Ristrutturazioni Sgomberi rapidi, ristrutturazioni senza pensieri</h1>
+          <p style="color:#000;"><span style="color:#fff;font-size:1em;margin-right:6px;">➤</span>Sopralluogo gratuito, preventivi trasparenti e smaltimento autorizzato. Dallo sgombero alla consegna chiavi in mano: tempi certi e garanzia sui lavori.</p>
+          <a class="cta secondary" href="#" onclick="scrollToProjects(); return false;">Guarda i progetti</a>
+        </div>
+      </div>
+    </div>
+    <img class="hero-logo" src="/logo.jpg" alt="" aria-hidden="true">
+  </section>
+
+  <main class="container">
+    <section class="section" style="background:var(--brand-orange);">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center;">
+        <div>
+          <h2 style="color:#000;">Chi siamo</h2>
+          <p style="color:#000;"><span style="color:#fff;font-size:1em;margin-right:6px;">➤</span>Siamo Sgomberami Ristrutturazioni: équipe di artigiani e professionisti con esperienza per sgomberi, ristrutturazioni e smaltimento autorizzato. Offriamo sopralluogo gratuito e preventivi dettagliati.</p>
+          <ul class="bullets">
+            <li style="color:#000;border-bottom-color:rgba(0,0,0,0.2);"><span style="color:#fff;font-size:1em;margin-right:6px;">➤</span>Sopralluogo gratuito • Preventivo trasparente</li>
+            <li style="color:#000;border-bottom-color:rgba(0,0,0,0.2);"><span style="color:#fff;font-size:1em;margin-right:6px;">➤</span>Smaltimento rifiuti con documentazione</li>
+            <li style="color:#000;border-bottom:none;"><span style="color:#fff;font-size:1em;margin-right:6px;">➤</span>Garanzia sui lavori • Assistenza post-intervento</li>
+          </ul>
+        </div>
+        <div>
+          <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Salotto moderno" style="width:100%;height:auto;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.1);">
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>I nostri servizi</h2>
+      <div class="grid">
+        <div class="card" style="cursor:pointer;" onclick="scrollToProjects()"><img src="https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cucina moderna" style="width:100%;height:200px;object-fit:cover;"><div style="padding:12px;background:#87CEEB;"><strong style="color:#fff;">Ristrutturazioni complete</strong><p style="color:#fff;margin:6px 0 0;"><span style="color:#fff;font-size:0.875em;margin-right:4px;">➤</span>Progetto e consegna chiavi in mano</p></div></div>
+        <div class="card" style="cursor:pointer;" onclick="scrollToProjects()"><img src="https://images.pexels.com/photos/4246120/pexels-photo-4246120.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Sgombero" style="width:100%;height:200px;object-fit:cover;"><div style="padding:12px;background:#87CEEB;"><strong style="color:#fff;">Sgomberi</strong><p style="color:#fff;margin:6px 0 0;"><span style="color:#fff;font-size:0.875em;margin-right:4px;">➤</span>Sgomberi civili e aziendali con smaltimento</p></div></div>
+        <div class="card" style="cursor:pointer;" onclick="scrollToProjects()"><img src="https://images.pexels.com/photos/1910472/pexels-photo-1910472.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Bagno moderno" style="width:100%;height:200px;object-fit:cover;"><div style="padding:12px;background:#87CEEB;"><strong style="color:#fff;">Bagni</strong><p style="color:#fff;margin:6px 0 0;"><span style="color:#fff;font-size:0.875em;margin-right:4px;">➤</span>Ristrutturazione bagno impermeabile e certificata</p></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="projects-section">
+      <h2>Prima e Dopo</h2>
+      <p style="text-align:center;color:#000;font-weight:bold;margin-bottom:24px;">Guarda le nostre trasformazioni</p>
+      <div class="before-after-container">
+        <div class="before-after-box">
+          <div class="image-slider">
+            <img src="" alt="Immagine trasformazione" id="slider-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--brand-orange);">
+      <h2 style="color:#000;text-align:center;margin-bottom:24px;">Chi siamo e dove operiamo</h2>
+      <div style="max-width:800px;margin:0 auto;">
+        <p style="color:#000;line-height:1.8;margin-bottom:16px;"><span style="color:#fff;font-size:1em;margin-right:6px;">➤</span><strong>Sgomberami Ristrutturazioni</strong> è la tua soluzione completa per sgomberi e ristrutturazioni in tutta la zona di Milano e provincia. Con anni di esperienza nel settore, siamo specializzati in interventi rapidi, professionali e chiavi in mano.</p>
+
+        <p style="color:#000;line-height:1.8;margin-bottom:16px;"><span style="color:#fff;font-size:1em;margin-right:6px;">➤</span>Il nostro team di artigiani qualificati e professionisti esperti ti accompagna in ogni fase del progetto: dal <strong>sopralluogo gratuito</strong> alla consegna finale dei lavori. Offriamo preventivi trasparenti e dettagliati, con tempi certi e garanzia sui lavori eseguiti.</p>
+
+        <p style="color:#000;line-height:1.8;margin-bottom:16px;"><span style="color:#fff;font-size:1em;margin-right:6px;">➤</span>Ci occupiamo di <strong>sgomberi completi</strong> con smaltimento autorizzato, <strong>ristrutturazioni totali</strong> di appartamenti e immobili, e <strong>rifacimento bagni</strong> con materiali di qualità e certificazioni a norma.</p>
+
+        <p style="color:#000;line-height:1.8;"><span style="color:#fff;font-size:1em;margin-right:6px;">➤</span><strong>Operiamo in tutta la zona di Milano e provincia</strong>, garantendo interventi rapidi e assistenza costante. Che tu abbia bisogno di uno sgombero urgente o di una ristrutturazione completa, siamo il partner giusto per trasformare i tuoi spazi senza pensieri.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="reviews-header">
+        <h2>Cosa dicono i nostri clienti</h2>
+        <div style="display:flex;align-items:center;justify-content:center;gap:16px;margin-top:16px;">
+          <div id="google-rating" class="google-rating"></div>
+        </div>
+      </div>
+      <div style="display:flex;justify-content:center;margin:20px 0;">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" style="height:40px;">
+      </div>
+      <div id="reviews-container" class="reviews-grid">
+        <p class="loading-message">Caricamento recensioni...</p>
+      </div>
+    </section>
+
+    <section id="contatti" class="section">
+      <div style="max-width:800px;margin:0 auto 40px;text-align:center;">
+        <h2 style="margin-bottom:24px;">Perché scegliere Sgomberami Ristrutturazioni</h2>
+        <div style="background:#f8f9fa;padding:32px;border-radius:12px;text-align:left;">
+          <p style="margin-bottom:16px;line-height:1.8;"><span style="color:#ff6b35;font-size:1.2em;margin-right:8px;">✓</span><strong>Sopralluogo gratuito e preventivo trasparente</strong> – Valutiamo insieme il tuo progetto senza impegno</p>
+          <p style="margin-bottom:16px;line-height:1.8;"><span style="color:#ff6b35;font-size:1.2em;margin-right:8px;">✓</span><strong>Servizio completo chiavi in mano</strong> – Dallo sgombero alla consegna finale, pensiamo a tutto noi</p>
+          <p style="margin-bottom:16px;line-height:1.8;"><span style="color:#ff6b35;font-size:1.2em;margin-right:8px;">✓</span><strong>Smaltimento autorizzato e certificato</strong> – Gestiamo i rifiuti nel rispetto delle normative</p>
+          <p style="margin-bottom:16px;line-height:1.8;"><span style="color:#ff6b35;font-size:1.2em;margin-right:8px;">✓</span><strong>Tempi certi e garanzia sui lavori</strong> – Rispettiamo le scadenze e garantiamo la qualità</p>
+          <p style="line-height:1.8;"><span style="color:#ff6b35;font-size:1.2em;margin-right:8px;">✓</span><strong>Esperienza e professionalità</strong> – Un team qualificato al tuo servizio</p>
+        </div>
+      </div>
+      <h2>Richiedi il tuo preventivo gratuito</h2>
+      <form id="contact-form" name="preventivo">
+        <div class="form-row">
+          <input name="name" type="text" placeholder="Nome e Cognome" required>
+          <input name="phone" type="tel" placeholder="Telefono">
+          <input name="email" type="email" placeholder="Email" required>
+          <input name="address" type="text" placeholder="Indirizzo cantiere">
+          <textarea name="message" rows="4" class="full" placeholder="Descrivi l'intervento"></textarea>
+        </div>
+        <label style="display:inline-flex;align-items:center;cursor:pointer;font-size:14px;line-height:1.5;margin-top:16px;">
+          <input type="checkbox" name="privacy" required style="margin:0 5px 0 0;cursor:pointer;flex-shrink:0;">
+          <span style="flex:1;">Acconsento al trattamento dei<br>dati personali secondo le normative vigenti (GDPR 679/2016)</span>
+        </label>
+        <div style="margin-top:16px;">
+          <button type="submit" class="btn-send">Invia richiesta</button>
+        </div>
+      </form>
+
+      <div style="max-width:900px;margin:60px auto 0;text-align:center;">
+        <h2 style="margin-bottom:16px;">🛡️ 100% Garanzia di Qualità</h2>
+        <p style="margin-bottom:40px;color:#666;font-size:1.05em;">Il nostro processo in 9 fasi per garantirti risultati eccellenti</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;text-align:left;">
+          <div style="background:#fff;padding:24px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            <div style="color:#ff6b35;font-size:1.8em;font-weight:bold;margin-bottom:12px;">1</div>
+            <h3 style="font-size:1.1em;margin-bottom:8px;">Primo Contatto</h3>
+            <p style="color:#666;line-height:1.6;">Ci contatti e fissiamo un appuntamento per il sopralluogo gratuito</p>
+          </div>
+          <div style="background:#fff;padding:24px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            <div style="color:#ff6b35;font-size:1.8em;font-weight:bold;margin-bottom:12px;">2</div>
+            <h3 style="font-size:1.1em;margin-bottom:8px;">Sopralluogo</h3>
+            <p style="color:#666;line-height:1.6;">Valutiamo insieme il progetto e le tue esigenze specifiche</p>
+          </div>
+          <div style="background:#fff;padding:24px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            <div style="color:#ff6b35;font-size:1.8em;font-weight:bold;margin-bottom:12px;">3</div>
+            <h3 style="font-size:1.1em;margin-bottom:8px;">Preventivo Dettagliato</h3>
+            <p style="color:#666;line-height:1.6;">Ti forniamo un preventivo trasparente con costi e tempi certi</p>
+          </div>
+          <div style="background:#fff;padding:24px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            <div style="color:#ff6b35;font-size:1.8em;font-weight:bold;margin-bottom:12px;">4</div>
+            <h3 style="font-size:1.1em;margin-bottom:8px;">Pianificazione</h3>
+            <p style="color:#666;line-height:1.6;">Organizziamo le fasi del lavoro e coordiniamo le squadre</p>
+          </div>
+          <div style="background:#fff;padding:24px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            <div style="color:#ff6b35;font-size:1.8em;font-weight:bold;margin-bottom:12px;">5</div>
+            <h3 style="font-size:1.1em;margin-bottom:8px;">Sgombero</h3>
+            <p style="color:#666;line-height:1.6;">Svuotiamo e puliamo gli spazi con smaltimento certificato</p>
+          </div>
+          <div style="background:#fff;padding:24px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            <div style="color:#ff6b35;font-size:1.8em;font-weight:bold;margin-bottom:12px;">6</div>
+            <h3 style="font-size:1.1em;margin-bottom:8px;">Ristrutturazione</h3>
+            <p style="color:#666;line-height:1.6;">Realizziamo i lavori edili secondo il progetto concordato</p>
+          </div>
+          <div style="background:#fff;padding:24px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            <div style="color:#ff6b35;font-size:1.8em;font-weight:bold;margin-bottom:12px;">7</div>
+            <h3 style="font-size:1.1em;margin-bottom:8px;">Finiture</h3>
+            <p style="color:#666;line-height:1.6;">Curiamo ogni dettaglio per un risultato impeccabile</p>
+          </div>
+          <div style="background:#fff;padding:24px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            <div style="color:#ff6b35;font-size:1.8em;font-weight:bold;margin-bottom:12px;">8</div>
+            <h3 style="font-size:1.1em;margin-bottom:8px;">Controllo Qualità</h3>
+            <p style="color:#666;line-height:1.6;">Verifichiamo che tutto sia perfetto secondo gli standard</p>
+          </div>
+          <div style="background:#fff;padding:24px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+            <div style="color:#ff6b35;font-size:1.8em;font-weight:bold;margin-bottom:12px;">9</div>
+            <h3 style="font-size:1.1em;margin-bottom:8px;">Consegna Chiavi in Mano</h3>
+            <p style="color:#666;line-height:1.6;">Ti consegniamo il tuo spazio pronto e garantito</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-bottom:40px;">
+        <div style="background:#fff;padding:40px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+          <h3 style="text-align:center;margin-bottom:32px;color:#333;font-size:1.5em;">Contatti e Social</h3>
+        <div style="display:flex;flex-direction:column;gap:20px;">
+          <div style="display:flex;align-items:center;gap:16px;">
+            <div style="background:#ff6b35;width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <div>
+              <div style="font-weight:bold;margin-bottom:4px;color:#333;">Telefono</div>
+              <a href="tel:+393332837165" style="color:#ff6b35;text-decoration:none;font-size:1.1em;">+39 333 283 7165</a>
+            </div>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px;">
+            <div style="background:#ff6b35;width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div>
+              <div style="font-weight:bold;margin-bottom:4px;color:#333;">Email</div>
+              <a href="mailto:riccardo@sgomberamiristrutturazioni.com" style="color:#ff6b35;text-decoration:none;word-break:break-all;">riccardo@sgomberamiristrutturazioni.com</a>
+            </div>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px;">
+            <div style="background:#ff6b35;width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </div>
+            <div>
+              <div style="font-weight:bold;margin-bottom:4px;color:#333;">Instagram</div>
+              <a href="https://www.instagram.com/sgomberami_ristruttura" target="_blank" rel="noopener" style="color:#ff6b35;text-decoration:none;font-size:1.1em;">@sgomberami_ristruttura</a>
+            </div>
+          </div>
+          <div style="text-align:center;margin-top:16px;padding-top:24px;border-top:1px solid #e0e0e0;">
+            <div style="color:#666;font-size:0.95em;"><strong>P.IVA:</strong> 14332020966</div>
+          </div>
+        </div>
+        </div>
+
+        <div style="background:#fff;padding:40px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);">
+          <h3 style="text-align:center;margin-bottom:32px;color:#333;font-size:1.5em;">Domande Frequenti</h3>
+          <div class="faq-container">
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Quanto tempo richiede una ristrutturazione completa?</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>I tempi variano in base alla dimensione dell'immobile e al tipo di interventi. Generalmente, per un appartamento di medie dimensioni, la durata è tra 4 e 8 settimane. Durante il sopralluogo gratuito ti forniremo una tempistica precisa e dettagliata.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Il preventivo è vincolante?</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>Sì, il nostro preventivo è trasparente e vincolante. Non ci sono costi nascosti o sorprese. Quello che ti comunichiamo all'inizio è quello che pagherai alla fine dei lavori.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Gestite anche le pratiche burocratiche?</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>Assolutamente sì. Ci occupiamo di tutte le pratiche burocratiche necessarie, dalle comunicazioni al comune fino ai certificati finali. Tu non devi preoccuparti di nulla.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Come funziona lo sgombero e lo smaltimento?</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>Effettuiamo lo sgombero completo dell'immobile e lo smaltimento autorizzato di tutti i materiali. Siamo regolarmente iscritti all'albo gestori rifiuti e forniamo tutta la documentazione necessaria.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Posso vedere i lavori durante la ristrutturazione?</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>Certamente! Manteniamo una comunicazione costante e trasparente. Puoi visitare il cantiere quando vuoi e ti aggiorniamo regolarmente con foto e video dell'avanzamento dei lavori.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question">
+                <span>Offrite garanzie sui lavori eseguiti?</span>
+                <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+              <div class="faq-answer">
+                <p>Sì, offriamo garanzia su tutti i lavori eseguiti e sui materiali utilizzati. La durata della garanzia varia in base al tipo di intervento e ti verrà specificata nel contratto.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="footer-copyright">
+        © <span id="year"></span> Sgomberami Ristrutturazioni |
+        <a href="#" style="color:#ff6b35;text-decoration:none;margin:0 8px;">Privacy Policy</a> |
+        <a href="#" style="color:#ff6b35;text-decoration:none;margin:0 8px;">Cookie Policy</a> |
+        <a href="/google401876af580b46f1 (1).html" style="color:#ff6b35;text-decoration:none;margin:0 8px;">Verifica Google</a>
+      </p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/393332837165" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contattaci su WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="/script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

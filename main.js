@@ -1,24 +1,32 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+// Import principale del foglio di stile
+import './style.css';
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+// -------------------
+// Il tuo codice originale
+// -------------------
 
-setupCounter(document.querySelector('#counter'))
+document.addEventListener('DOMContentLoaded', () => {
+  // Selettore per il bottone del menu mobile
+  const menuBtn = document.querySelector('#mobile-toggle');
+  const nav = document.querySelector('.main-nav');
+
+  if (menuBtn && nav) {
+    menuBtn.addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+  }
+
+  // Scroll automatico alla sezione contatti
+  const contattiLink = document.querySelector('a[href="#contatti"]');
+  const contattiSection = document.querySelector('#contatti');
+
+  if (contattiLink && contattiSection) {
+    contattiLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      contattiSection.scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+
+  // Esempio: log di conferma caricamento
+  console.log('✅ Script principale caricato correttamente');
+});
